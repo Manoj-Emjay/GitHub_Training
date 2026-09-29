@@ -15,7 +15,7 @@ typedef struct
 void UdsHandler_Init(UdsHandler_t* pHandler, SessionManager_t* pSessionMgr);
 
 /*
- * Processes a raw UDS request and writes the response into pResponse/*pResponseLength.
+ * Processes a raw UDS request and writes the response into pResponse / pResponseLength.
  * Returns true only for a valid Diagnostic Session Control (0x10) request that
  * resulted in a positive response and a session transition.
  */
